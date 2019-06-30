@@ -1,0 +1,58 @@
+# Git Commands
+### here I will start from the beginning to learn "how we can deal with <u>git</u> and <u>github</u>"
+
+## Requirements
+  * **Operating system**, I am using Ubuntu linux, you can use any operating system from your choice. 
+  * * In windows you can download Git from here [https://git-scm.com/downloads](URL).
+  * Knowing how to deal with command line (**Terminal** or **CMD**) and deal with paths and files. 
+  * You have to create **Account** in Github so we can create our first repository.
+## steps 
+ 1. After creating you github account click on **New** to create your repositories.
+
+ 2. Open your **terminal** and do two things:
+ 
+    * First, write these commands in **terminal**
+
+          * *&dollar; `git config --global user.name "your name"`
+          * &dollar; `git config --global user.email "email address"`
+          * &dollar; `git config --global color.ui auto`
+          * &dollar; `git config --global core.editor "code --wait"`
+            * * in the last command I used visual studio editor, so it will help me to commit on changes in my code, but if you want to choose another one like atom your can change the word **code** to **arom**
+
+   * * Second, choose the place that you want to **clone** your files in it.
+   * * * Clone means to download the project files from github on your local device.
+
+**For example** if you want put your folder in Desktob, the first command will be:
+
+&dollar;  `cd /Desktob`
+
+**then write:**
+
+&dollar; git init
+
+this command will clone the project in your path:
+
+&dollar; `git clone [project clone link]`
+
+*My project link is:* [https://github.com/computertopic/git-command.git](URL)
+
+* * use your project link :)
+
+**After cloning the project you will find the folder with the name "git-command" in your disktob.**
+
+### Now I will upload this file in the repository :) and to do so, I will use these commands:
+  * &dollar; `git add [file name]`
+  * * if you have many files and you want to add them all use &dollar; `git add .`
+  * The following command is so important and you can use it to list all the modified files it is fun huh :):
+  *  * &dollar; `git status`
+  * Here is the pretty part, Hurrah, we will be committing our first commit in our project:
+  *  * &dollar; `git commit [file name]`
+  *  * * the editor will pop up so you can right the message that you want.
+
+**Finally we will use this command to upload my file in the repo**
+
+&dollar; `git push origin master`
+
+
+
+## More Explanation will come soon..Enjoy..!
